@@ -20,7 +20,7 @@
 }
 @font-face {
   font-family: "Pixelcastle";
-  src: url("Pixelcastle-Regular.otf") format("opentype");
+  assets/Pixelcastle-Regular.otf format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
