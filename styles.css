@@ -20,7 +20,7 @@
 }
 @font-face {
   font-family: "Pixelcastle";
-  assets/Pixelcastle-Regular.otf format("opentype");
+  src: url("assets/Pixelcastle-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -244,7 +244,7 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-.tile small::after { content: "↗"; font-size: 18px; margin-top: -5px; }
+.tile small::after { content: "â†—"; font-size: 18px; margin-top: -5px; }
 
 .info {
   display: grid;
@@ -777,7 +777,7 @@ header nav a:hover { border-color: var(--ink); }
 }
 .hero-art::before,
 .hero-art::after {
-  content: "✣";
+  content: "âœ£";
   position: absolute;
   right: 34px;
   top: 68px;
